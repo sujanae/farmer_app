@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:farmer_app/helper/helper_function.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -139,7 +140,7 @@ class _RegisterPageState extends State<RegisterPage> {
 
             // Register Button
             ElevatedButton(
-              onPressed: _register,
+              onPressed: () {},
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.green.shade400,
               ),
