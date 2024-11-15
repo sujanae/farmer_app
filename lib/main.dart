@@ -1,6 +1,7 @@
 import 'package:farmer_app/auth/login_page.dart';
 import 'package:farmer_app/auth/register_page.dart';
 import 'package:farmer_app/pages/home_page.dart';
+import 'package:farmer_app/pages/onboarding_srceen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -22,9 +23,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         textTheme: GoogleFonts.mulishTextTheme(),
       ),
-      home: LoginPage(
-        onTap: () {},
-      ),
+      home: const OnboardingPage(),
     );
   }
 }

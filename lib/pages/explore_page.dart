@@ -26,8 +26,8 @@ class ExplorePage extends StatelessWidget {
                               color: Colors.grey.shade300,
                             ),
                             borderRadius:
-                                BorderRadius.all(Radius.circular(99))),
-                        prefixIcon: Icon(IconlyLight.search)),
+                                const BorderRadius.all(Radius.circular(99))),
+                        prefixIcon: const Icon(IconlyLight.search)),
                   ),
                 ),
                 Padding(
@@ -67,10 +67,11 @@ class ExplorePage extends StatelessWidget {
                                     .titleLarge!
                                     .copyWith(color: Colors.green.shade700),
                               ),
-                              Text(
+                              const Text(
                                   "Get free support from our customer service"),
                               FilledButton(
-                                  onPressed: () {}, child: Text("Call now")),
+                                  onPressed: () {},
+                                  child: const Text("Call now")),
                             ],
                           ),
                         ),
