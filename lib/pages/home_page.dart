@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
               icon: badges.Badge(
                   badgeContent: const Text("3",
                       style: TextStyle(color: Colors.white, fontSize: 12)),
-                  badgeStyle: badges.BadgeStyle(badgeColor: Colors.green),
+                  badgeStyle: const badges.BadgeStyle(badgeColor: Colors.green),
                   position: badges.BadgePosition.topEnd(top: -15, end: -12),
                   child: const Icon(IconlyBroken.notification)),
             ),
